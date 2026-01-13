@@ -1,5 +1,5 @@
 check:
-	fluent-bit-4.2.2 -i cpu -o stdout -f 1
+	./fluent-bit-4.2.2 -i cpu -o stdout -f 1
 
 # Build from source:
 # cd build
